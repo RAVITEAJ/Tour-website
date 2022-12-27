@@ -1,0 +1,116 @@
+.header {
+    background-color: white;
+    padding: 20px;
+}
+
+.header__navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tuor_logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo_img {
+    max-width: 150px;
+}
+
+.logo_img img {
+    width: 100%;
+}
+
+.navbar {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 0 20px 0 40px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #1a1a1a;
+}
+
+.navbar ul li a:hover {
+    color: var(--blue-dark);
+}
+
+.navbar_login {
+    display: flex;
+    align-items: center;
+}
+
+.login {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.login ul {
+    list-style: none;
+}
+
+.login ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+
+.login ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #1a1a1a;
+}
+.login ul li::after {
+    content: ' / ';
+    font-size: 26px;   
+}
+
+.login ul li:last-child::after{
+    content: '';
+}
+
+.login ul li a:hover {
+    color: var(--blue-dark);
+}
+
+.btns_add {
+    margin:0 20px;
+}
+
+.btns_add .btn:hover {
+    background-color: #6c757d;
+}
+
+.call_dial {
+    position: relative;
+    margin: 0 40px;
+}
+
+.call_dial a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #1a1a1a;
+    text-transform: uppercase;
+}
+
+.call_dial a:hover {
+    color: var(--blue-dark);
+}

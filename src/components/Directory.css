@@ -1,0 +1,132 @@
+.directory__bg {
+    background-color: #1c1b2d;
+    padding: 90px 20px;
+}
+
+.directory_center {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.directory_center h1 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.directory_center h1 span {
+    color: var(--blue-dark);
+}
+
+.directory__boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.directory__col {
+    width: 25%;
+    margin-right: 25px;
+}
+
+.directory__img {
+    width: 100%;
+}
+
+.directory__img img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.directory__col h3 {
+    color: #e8edf0;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.directory__rating {
+    display: flex;
+    align-items: center;
+}
+
+.directory__box {
+    background-color: var(--blue-dark);
+    width: 40px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #e8edf0;
+    margin-right: 5px;
+}
+
+.rating {
+    margin: 0;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.rating a {
+    text-decoration: none;
+    color: #e8edf0;
+    text-transform: capitalize;
+    font-size: 13px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.rating a:hover {
+    color: var(--blue-dark);
+}
+.rating a span {
+    color: var(--blue-dark);
+    padding: 0 2px;
+}
+.rating a::after {
+    content: ' | ';
+    margin: 0 8px;
+}
+
+.rating a:last-child::after {
+    content: '';
+}
+
+.rating .MuiSvgIcon-root {
+    color: var(--blue-dark);
+    font-size: 16px;
+}
+
+.directory__col p {
+    color: #e8edf0;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.readmore__btns {
+    margin-top: 40px;
+    padding: 0;
+}
+
+.readmore__btns .readmore {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 50px;
+}
+
+.readmore__btns .readmore:hover {
+    background-color: #e8edf0;
+    color: #1c1b2d;
+}
